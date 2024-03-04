@@ -1,6 +1,5 @@
 /* インクルードガード */
 #pragma once
-
 #include <M5Stack.h>
 
 class MdMusicPlayer // classの定義

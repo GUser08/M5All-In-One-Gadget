@@ -11,7 +11,7 @@
 #define TRIG_PIN 2
 
 // jpg image path
-#define TITLE_IMG_PATH "/images/title/title.jpg"
+#define TITLE_IMG_PATH "/images/title/title.jpg"//タイトル画面
 
 #define MENU_WBGT_IMG_PATH "/images/menu/monitor.jpg"
 #define MENU_WBGT_FOCUS_IMG_PATH "/images/menu/monitor_focus.jpg"
@@ -77,6 +77,41 @@
 #define COMMON_BLUEDOT_IMG_PATH "/images/common/blue_number/dot.jpg"
 #define COMMON_BLUEFILLWHITE_IMG_PATH "/images/common/blue_number/fillwhite.jpg"
 
+//時刻表示
+#define DATE_NOTICE_X_CRD 0
+#define DATE_NOTICE_Y_CRD 0
+#define DATE_YYYYMMDD_X_CRD 10
+#define DATE_YYYYMMDD_Y_CRD 100
+#define DATE_HHmmSS_X_CRD 40
+#define DATE_HHmmSS_Y_CRD 150
+#define DATE_BACK_X_CRD 120
+#define DATE_BACK_Y_CRD 200
+
+//距離測定中
+
+#define MEASURE_NOTICE_X_CRD 0//距離測定画面の「距離測定中」
+#define MEASURE_NOTICE_Y_CRD 0
+#define MEASURE_DIGIT3_X_CRD 10//百
+#define MEASURE_DIGIT3_Y_CRD 100
+#define MEASURE_DIGIT2_X_CRD 53//十
+#define MEASURE_DIGIT2_Y_CRD 100
+#define MEASURE_DIGIT1_X_CRD 96//一
+#define MEASURE_DIGIT1_Y_CRD 100
+#define MEASURE_DOT_X_CRD 139
+#define MEASURE_DOT_Y_CRD 100
+#define MEASURE_DECIMAL_X_CRD 182//小数第一位
+#define MEASURE_DECIMAL_X_CRD 100
+#define MEASURE_CM_X_CRD 240 //CM
+#define MEASURE_CM_Y_CRD 100
+#define MEASURE_BACK_X_CRD 120
+#define MEASURE_BACK_Y_CRD 200
+
+
+
+//TITLE JPG image coordinate
+#define TITLE_x_CRD 0
+#define TITLE_Y_CRD 0
+
 // MENU jpg image coordinate
 #define MENU_WBGT_X_CRD 0
 #define MENU_WBGT_Y_CRD 0
@@ -84,6 +119,7 @@
 #define MENU_MUSIC_Y_CRD 50
 
 // WBGT jpg image coordinate
+
 
 // Music jpg image coordinate
 

@@ -32,4 +32,5 @@ String MdDateTime::readTime()
     snprintf(time, sizeof(time), "%02d:%02d:%02d", gps.time.hour() + 9, gps.time.minute(), gps.time.second());
     Serial.println(time);
     return String(time);
+
 }

@@ -1,7 +1,6 @@
 #include "M5All-In-One-Gadget.h"
 #include <M5Stack.h>
 #include <SD.h>
-
 #include "AppControl.h"
 
 AppControl apc;
@@ -9,21 +8,21 @@ AppControl apc;
 // BUTTON A（左） の割込み関数
 void buttonA_isr()
 {
-    //Serial.println("A interrupt : State[" + String(apc.getState()) + "] Action[" + String(apc.getAction()) + "]");
+    // Serial.println("A interrupt : State[" + String(apc.getState()) + "] Action[" + String(apc.getAction()) + "]");
     apc.setBtnAFlg(true);
 }
 
 // BUTTON A（真ん中） の割込み関数
 void buttonB_isr()
 {
-    //Serial.println("B interrupt : State[" + String(apc.getState()) + "] Action[" + String(apc.getAction()) + "]");
+    // Serial.println("B interrupt : State[" + String(apc.getState()) + "] Action[" + String(apc.getAction()) + "]");
     apc.setBtnBFlg(true);
 }
 
 // BUTTON A（右） の割込み関数
 void buttonC_isr()
 {
-    //Serial.println("C interrupt : State[" + String(apc.getState()) + "] Action[" + String(apc.getAction()) + "]");
+    // Serial.println("C interrupt : State[" + String(apc.getState()) + "] Action[" + String(apc.getAction()) + "]");
     apc.setBtnCFlg(true);
 }
 
